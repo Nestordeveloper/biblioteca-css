@@ -1,0 +1,110 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0077B5;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-title {
+    color: white;
+    padding: 1%;
+    font-weight: bold;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+li {
+    list-style: none;
+    margin-right: 20px;
+}
+.nav {
+    background-color: #333333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logout {
+    background-color: #17a2b8;
+    border-style: none;
+    color: white;
+    box-shadow: 5px 5px 0px 0px rgba(0,0,0,1);
+    font-weight: bold;
+    height: 30px;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+
+.col {
+    margin-top: 2%;
+    flex: 1;
+    padding: 0 10px;
+}
+
+
+.header {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    max-width: 100%;
+    max-height: 300px;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.image {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: auto;
+}
